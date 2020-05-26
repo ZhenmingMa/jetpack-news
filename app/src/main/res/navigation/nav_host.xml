@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/jokeFragment"
+        android:name="cn.sinoits.traffic.project.page.JokeFragment"
+        android:label="笑话"
+        tools:layout="@layout/fragment_joke" />
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="cn.sinoits.traffic.project.page.PhotoFragment"
+        android:label="照片"
+        tools:layout="@layout/fragment_photo" />
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="cn.sinoits.traffic.project.page.NewsFragment"
+        android:label="新闻">
+        <action
+            android:id="@+id/action_newsFragment_to_newsDetailFragment"
+            app:destination="@id/newsDetailFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="cn.sinoits.traffic.project.page.NewsListFragment"
+        android:label="NewsListFragment" />
+    <fragment
+        android:id="@+id/newsDetailFragment"
+        android:name="cn.sinoits.traffic.project.page.NewsDetailFragment"
+        android:label=" ">
+        <argument
+            android:name="newsId"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/IdCardFragment"-->
+<!--        android:name="com.ma.idcardocrlibrary.IdCardfragment"-->
+<!--        android:label="IdCardFragment" />-->
+    <!--    <fragment-->
+<!--        android:id="@+id/AIFragment"-->
+<!--        android:name="cn.sinoits.traffic.project.page.AIFragment"-->
+<!--        android:label="AIFragment" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_AIFragment_to_plateHyperFragment"-->
+<!--            app:destination="@id/plateHyperFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_AIFragment_to_plateRecFragment"-->
+<!--            app:destination="@id/plateRecFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_AIFragment_to_checkFragment"-->
+<!--            app:destination="@id/checkFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/plateRecFragment"-->
+<!--        android:name="com.ma.ai_module.PlateRecFragment"-->
+<!--        android:label="PlateRecFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/plateHyperFragment"-->
+<!--        android:name="com.ma.ai_module.PlateHyperFragment"-->
+<!--        android:label="PlateHyperFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/checkFragment"-->
+<!--        android:name="com.ma.ai_module.CheckFragment"-->
+<!--        android:label="CheckFragment" />-->
+
+</navigation>

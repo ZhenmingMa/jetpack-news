@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="cn.sinoits.traffic.project.page.AIFragment">
+
+    <Button
+        android:id="@+id/btn_jump_wt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jump plate with wt"/>
+    <Button
+        android:id="@+id/btn_jump_hyper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jump plate with hyper"/>
+    <Button
+        android:id="@+id/btn_jump_yolov2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jump check yolov2"/>
+</LinearLayout>

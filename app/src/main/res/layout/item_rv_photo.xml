@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="photo"
+            type="cn.sinoits.traffic.project.data.entity.Photo" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            imageFromUrl="@{photo.imageUrl}"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:text="@{photo.imageSize}"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.card.MaterialCardView>
+</layout>
