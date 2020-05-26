@@ -5,6 +5,7 @@
 ## 涉及到的组件
 ### Navigation 
 配合BottomNavigationView底部导航栏实现，在mainActivity里监听当前的Destination来进行隐藏和显示  
+Navigation组件fragment的切换和显示使用replace的方式，需要保存页面的状态来进行页面恢复
 ### Databinding和LiveData
 使用databinding绑定viewmodel，关联viewmodel和view，无需管理生命周期和非空判断，安全快速有效
 ### Paging
