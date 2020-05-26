@@ -6,8 +6,9 @@
    paging
    viewmodel
 ## 效果图如下  
-   ![Image text](https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487164.png)
-   ![Image text](https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487170.png)
-   ![Image text](https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487173.png)
-   ![Image text](https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487180.png)
-   ![Image text](https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487189.png)
+   <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487164.png" width="640">
+     <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487170.png" width="640">
+       <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487173.png" width="640">
+         <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487180.png" width="640">
+           <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487189.png" width="640">
+
