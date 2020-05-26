@@ -1,6 +1,6 @@
 # jetpack-news
-项目架构图
-  <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png" width="720">
+项目架构图  
+<img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png" width="720">
 
 ## 涉及到的组件
 ### Navigation 
