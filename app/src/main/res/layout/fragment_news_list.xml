@@ -8,7 +8,7 @@
 
         <variable
             name="model"
-            type="cn.sinoits.traffic.project.viewmodel.NewsListViewModel" />
+            type="com.ma.jetpack.news.viewmodel.NewsListViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

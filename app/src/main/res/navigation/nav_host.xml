@@ -7,18 +7,18 @@
 
     <fragment
         android:id="@+id/jokeFragment"
-        android:name="cn.sinoits.traffic.project.page.JokeFragment"
+        android:name="com.ma.jetpack.news.page.JokeFragment"
         android:label="笑话"
         tools:layout="@layout/fragment_joke" />
     <fragment
         android:id="@+id/photoFragment"
-        android:name="cn.sinoits.traffic.project.page.PhotoFragment"
+        android:name="com.ma.jetpack.news.page.PhotoFragment"
         android:label="照片"
         tools:layout="@layout/fragment_photo" />
 
     <fragment
         android:id="@+id/newsFragment"
-        android:name="cn.sinoits.traffic.project.page.NewsFragment"
+        android:name="com.ma.jetpack.news.page.NewsFragment"
         android:label="新闻">
         <action
             android:id="@+id/action_newsFragment_to_newsDetailFragment"
@@ -29,11 +29,11 @@
     </fragment>
     <fragment
         android:id="@+id/newsListFragment"
-        android:name="cn.sinoits.traffic.project.page.NewsListFragment"
+        android:name="com.ma.jetpack.news.page.NewsListFragment"
         android:label="NewsListFragment" />
     <fragment
         android:id="@+id/newsDetailFragment"
-        android:name="cn.sinoits.traffic.project.page.NewsDetailFragment"
+        android:name="com.ma.jetpack.news.page.NewsDetailFragment"
         android:label=" ">
         <argument
             android:name="newsId"

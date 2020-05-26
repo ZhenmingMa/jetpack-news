@@ -5,7 +5,7 @@
     <data>
         <variable
             name="joke"
-            type="cn.sinoits.traffic.project.data.entity.Joke" />
+            type="com.ma.jetpack.news.data.entity.Joke" />
     </data>
 
     <androidx.cardview.widget.CardView

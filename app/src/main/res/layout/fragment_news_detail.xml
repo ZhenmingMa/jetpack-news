@@ -7,7 +7,7 @@
 
         <variable
             name="newsDetail"
-            type="cn.sinoits.traffic.project.viewmodel.NewsDetailViewModel" />
+            type="com.ma.jetpack.news.viewmodel.NewsDetailViewModel" />
     </data>
 
 

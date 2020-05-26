@@ -10,7 +10,7 @@
 
         <variable
             name="newsList"
-            type="cn.sinoits.traffic.project.data.entity.NewsList" />
+            type="com.ma.jetpack.news.data.entity.NewsList" />
     </data>
 
     <com.google.android.material.card.MaterialCardView
@@ -46,7 +46,7 @@
                 android:scaleType="fitCenter"
                 android:visibility="gone" />
 
-            <cn.sinoits.traffic.project.page.view.SampleCoverVideo
+            <com.ma.jetpack.news.page.view.SampleCoverVideo
                 android:id="@+id/detail_player"
                 coverUrl="@{newsList.imgList.get(0)}"
                 videoFromUrl="@{newsList.videoList}"
