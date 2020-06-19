@@ -5,7 +5,7 @@
 ## 涉及到的组件
 ### Navigation 
 配合BottomNavigationView底部导航栏实现，在mainActivity里监听当前的Destination来进行隐藏和显示  
-Navigation组件fragment的切换和显示使用replace的方式，需要保存页面的状态来进行页面恢复
+Navigation组件fragment的切换和显示使用replace的方式，需要保存页面的g状态来进行页面恢复
 ### Databinding和LiveData
 使用databinding绑定viewmodel，关联viewmodel和view，无需管理生命周期和非空判断，安全快速有效
 ### Paging
@@ -16,5 +16,5 @@ Navigation组件fragment的切换和显示使用replace的方式，需要保存�
 ### Materials Design
 整体使用Materials Design风格 使用协调者布局来控制appbar的状态
 ## 效果图如下  
-   <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487164.png" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487170.png" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487173.png" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487180.png" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487189.png" width="280">
+   <img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487164.webp" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487170.webp" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487173.webp" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487180.webp" width="280"><img src="https://raw.githubusercontent.com/mazhenming892/jetpack-news/master/screenshot/Screenshot_1590487189.webp" width="280">
 
